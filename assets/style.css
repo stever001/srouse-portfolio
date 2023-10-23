@@ -5,13 +5,14 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: #4a0909;
     color: #fff;
     padding: 20px;
   }
   
   header h1 {
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif
   }
   
   nav ul {
@@ -21,13 +22,16 @@ body {
   }
   
   nav ul li {
-    display: inline;
+    display: flexbox;
     margin-right: 10px;
+    flex-wrap:wrap;
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif
   }
   
   nav ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration:underline;
   }
   
   section {
@@ -38,6 +42,10 @@ body {
     margin-top: 0;
   }
   
+  #about {
+    background-color:burlywood
+
+  }
   .work-images {
     display: flex;
     flex-wrap: wrap;
@@ -53,4 +61,16 @@ body {
   
   .work-images img {
     width: 100%;
+  }
+
+
+  #contact {
+    background-color:#4a0909;
+    color:#fff;
+  }
+  footer {
+
+color:#4a0909
+font-family:'Courier New', Courier, monospace;
+text-align: right;
   }
